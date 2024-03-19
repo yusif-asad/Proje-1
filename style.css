@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.img img {
+    width: 100px;
+    height: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.list li {
+    margin-left: 15px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.mini-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-bar button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.middle {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.middle h3 {
+    font-size: 35px;
+}
+
+.middle h1 {
+    font-size: 60px;
+}
+
+.middle button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.middle button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+header {
+    background-image: url(marbo-furniture-slider-02.webp);
+    width: 100%;
+    height: 100vh;
+
+    padding: 20px;
+    background-size: cover;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px;
+}
+
+.tables {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.tables-1 img {
+    position: absolute;
+}
+
+.tables-1 div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tables-2 img {
+    position: absolute;
+}
+
+.tables-2 div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables-3 img {
+    position: absolute;
+}
+
+.tables-3 div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables-4 img {
+    position: absolute;
+}
+
+.tables-4 div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tables div button {
+    padding: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.tables div button:hover {
+    transition: all .3s;
+    background-color: black;
+    color: white;
+
+}
+
+.tables img {
+    height: 400px;
+    width: 300px;
+}
+
+.tables button {
+    display: none;
+}
+
+.tables:hover  button {
+    display: flex;
+}
+
+.home-design h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px;
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.main-container-home-design {
+    width: 50%;
+}
+
+.main-container-home-design img {
+    height: 450px;
+    width: 550px;
+    margin: 0px 120px 50px 40px;
+
+}
+
+
+.main-container-knowlage {
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.section3 h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sponsors {
+    margin: 50px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inputs {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.inputs input {
+    padding: 15px;
+    margin: 0px 20px;
+}
+
+/* ! BAX !             !         !    */
+
+.button-send:hover {
+    text-decoration: none;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 35px;
+}
+
+.navigation-img img {
+    width: 100px;
+    height: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.button-end {
+    display: flex;
+
+}
+
+.button-end button {
+    margin-right: 10px;
+}
